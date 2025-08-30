@@ -78,3 +78,35 @@ body {
 }
 
 
+/* <------banner Style------> */
+
+
+.banner-container {
+    padding: 20px;
+}
+
+.top-banner {
+    background-color: #014631;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.monogram {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+.top-banner h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.top-banner p {
+    margin: 5px 0 0;
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
