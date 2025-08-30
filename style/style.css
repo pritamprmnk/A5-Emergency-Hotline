@@ -64,7 +64,7 @@ body {
 
 
 .green-button {
-    background-color: rgba(0, 166, 62, 1);;
+    background-color: rgba(0, 166, 62, 1);
     color: #fff;
     border: none;
     padding: 8px 15px;
@@ -109,4 +109,153 @@ body {
     margin: 5px 0 0;
     font-size: 0.9rem;
     opacity: 0.9;
+}
+
+
+/* <------Card section------> */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+
+
+.container {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.card-header img {
+  width: 28px;
+  height: 28px;
+}
+
+.card-header h3 {
+  font-size: 16px;
+}
+
+.card p {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 10px;
+
+}
+
+.card .number {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.btns {
+  display: flex;
+  gap: 8px;
+}
+
+button {
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.copy {
+background: #f0f0f0;
+width: 135px;
+height: 35px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: undefined;
+padding: 16px;
+
+}
+
+.call {
+background: rgba(0, 166, 62, 1);
+color: white;
+width: 135px;
+height: 35px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: undefined;
+padding: 16px;
+
+}
+
+.history {
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.history h3 {
+  font-size: 16px;
+}
+
+.clear {
+  background: rgba(0, 166, 62, 1);
+  color: white;
+  padding: 4px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.history ul {
+  list-style: none;
+}
+
+.history li {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.history span {
+  color: gray;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.heart {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #ccc;
+  transition: 0.3s;
 }
