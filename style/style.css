@@ -259,6 +259,23 @@ padding: 16px;
   transition: 0.3s;
 } 
 
+/* <----Footer Section----> */
+.footer-img {
+  padding: 30px 5px
+}
+
+.footer {
+  background: #e9f6ec;
+  text-align: center;
+  padding: 15px 10px;
+}
+
+.footer p {
+  color: #000000;
+  font-size: 1px;
+  margin: 0;
+}
+
 /* Responsive Design */
 
 
